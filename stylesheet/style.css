@@ -245,91 +245,111 @@ nav {
 /* Media queries Start*/
 
 /* Smaller devices */
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 576px) {
   header {
     display: none;
-  }  
+  }
+
   .container {
     width: 100%;
     padding: 30PX 0;
   }
+
   .section-title {
     text-align: center;
   }
+
   .courses,
   .top-glogs-grid-container,
   .top-players-grid-container {
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
+
   .player {
     flex-direction: column;
   }
+
   .player-photo img {
     margin-right: 0;
   }
+
   .blog {
     flex-direction: column;
     align-items: flex-start;
     padding: 0 20%;
   }
+
   .courses {
     column-gap: 0;
     row-gap: 23.60px;
   }
+
   .item {
     margin: 0 10px;
   }
 }
+
 /* Medium Devices*/
-@media only screen and (min-width: 577px) and (max-width: 991px){
-  
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+
   /* .courses,
   .top-glogs-grid-container, */
   .container {
     width: 90%;
     padding: 30PX 0;
   }
+
   .section-title {
     text-align: center;
   }
+
   .top-players-grid-container {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 50px;
   }
+
   .player {
     justify-content: center;
   }
+
   .player:nth-child(1),
   .player:nth-child(3),
   .player:nth-child(5) {
     flex-direction: row-reverse;
     justify-content: end;
   }
+
   .player:nth-child(2),
   .player:nth-child(4),
   .player:nth-child(6) {
     justify-self: start;
   }
+
   .player:nth-child(1) .player-photo img,
   .player:nth-child(3) .player-photo img,
   .player:nth-child(5) .player-photo img {
     margin: 0;
     margin-left: 18px;
   }
+
   .courses,
   .top-glogs-grid-container {
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
+
   .blog {
     flex-direction: column;
     align-items: flex-start;
     padding: 0 20%;
   }
+
   .item {
     margin: 0 10%;
   }
+
   header {
     display: none;
   }
 }
+
 /* Media queries end*/
