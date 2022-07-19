@@ -20,11 +20,11 @@ main {
 }
 
 .container {
-  width: 870px;
+  width: 810px;
   background-color: #FFFFFF;
   margin-top: 36px;
-  padding: 30px;
   border-radius: 5px;
+  padding: 30px;
 }
 
 .section-title h1 {
@@ -38,6 +38,7 @@ hr {
   border: 1px solid #D1D1D1;
   margin: 30px 0;
 }
+
 /* common css or utilities end*/
 
 /* header section style start */
@@ -98,6 +99,10 @@ nav {
   row-gap: 30px;
 }
 
+.top-players {
+  width: 100%;
+}
+
 .player {
   display: flex;
   align-items: center;
@@ -116,3 +121,43 @@ nav {
 }
 
 /* Top players Section style end */
+/* Top Blogs Section style Start */
+.top-glogs-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 13px;
+  column-gap: 20px;
+}
+
+.blog {
+  display: flex;
+  align-items: center;
+}
+
+.blog-thumbnail {
+  margin-right: 16px;
+}
+
+.blog-thumbnail img {
+  width: 177px;
+  height: 117px;
+}
+
+.blog-dis {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.blog-author {
+  color: #9F9F9F;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.blog-author span {
+  color: #562EFF;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* Top Blogs Section style end */
