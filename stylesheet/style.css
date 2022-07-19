@@ -179,8 +179,6 @@ nav {
 }
 
 .course-banner img {
-  /* width: 100%; */
-  /* height: 141px; */
   width: 224px;
   height: 104px;
 }
@@ -237,6 +235,7 @@ nav {
   color: #FF4A60;
   padding: 0px 3px;
 }
+
 .fa-clock {
   font-size: 14.6913px;
   color: #FF4A60;
